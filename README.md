@@ -1,0 +1,24 @@
+## NoServerAds
+### Automatically punish the advertiser in your server!
+### Config
+```yaml
+# Commands that run in the console when a player send advertise message
+punishments:
+  - kick $player NO ADVERTISING
+
+# Allowed server ips
+# Set it to your server's ip address or your friend's one
+whitelist:
+  - org.leavesmc.leaves
+  - org.dreeam.leaf
+
+# The ips in this list will be punished without ping check
+# Set to the notorious advertisers
+blacklist:
+  # XeCraft current ip
+  # For your better server environment, please update this periodically
+  - 43.249.195.195:50650
+
+# Debug mode: log the matched ip:port
+debug-mode: false
+```

@@ -1,0 +1,13 @@
+name: NoServerAds
+version: 1.0.1-SNAPSHOT
+main: com.kojitadokoro114.noserverads.NoServerAdsPlugin
+api-version: 1.13
+authors:
+  - KojiTadokoro114
+commands:
+  noserverads:
+    permission: noserverads.admin
+
+permissions:
+  noserverads.admin:
+    defalut: op
